@@ -27,6 +27,14 @@ public class BillingPriceSystem {
 		double tmp=mp*mq;
 		return tmp;
 	}
+	double getclothsPriceInfo() {
+		System.out.print("Enter ur cloths price: ");
+		double cp=sc.nextDouble();
+		System.out.print("Enter ur cloths quanntity: ");
+		int cq=sc.nextInt();
+		double tcp=cp*cq;
+		return tcp;
+	}
 	double getWatchPriceInfo() {
 		System.out.print("Enter ur watch price: ");
 		double wp=sc.nextDouble();
