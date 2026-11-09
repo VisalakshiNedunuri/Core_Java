@@ -11,7 +11,7 @@ public class Idly {
 	}
 
 	public static void main(String[] args) {
-		Poori p=new Poori()//compilation error
+		//Poori p=new Poori()//compilation error
 	}
 
 }
