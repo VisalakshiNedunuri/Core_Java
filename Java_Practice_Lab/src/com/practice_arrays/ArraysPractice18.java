@@ -21,8 +21,6 @@ public class ArraysPractice18 {
 				System.out.print(a+" ");
 			}
 			System.out.println();
-		}
-		
+		}	
 	}
-
 }
