@@ -20,7 +20,7 @@ public class PrimeNum1 {
 	static boolean isPrime(int n) {
 		boolean status=true;
 		if(n<=1) {
-			status= false;
+			return false;
 		}
 		for(int i=2;i<n;i++) {
 			if(n%i==0) {

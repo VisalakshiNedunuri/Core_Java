@@ -1,7 +1,7 @@
 package com.practice_arrays;
 
 //1. Store numbers in an array and print only the prime numbers.
-public class PrimeNumber_1 {
+public class PrimeNumber1 {
 
 	public static void main(String[] args) {
 		int[] arr= {12, 7, 4, 13, 9, 2, 17, 1, 19};
@@ -31,5 +31,4 @@ public class PrimeNumber_1 {
 		}
 		return status;
 	}
-
 }
